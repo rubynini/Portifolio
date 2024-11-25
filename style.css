@@ -1,0 +1,105 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definições gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #4e2a84; /* Cor lilás */
+}
+
+.highlight {
+    color: #9b56b2; /* Tom lilás mais claro */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profession {
+    font-size: 1.2rem;
+    color: #9b56b2;
+    font-weight: 600;
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4e2a84;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.projeto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+    color: #4e2a84;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    color: #555;
+}
+
+/* Contato */
+.contato ul {
+    padding-left: 20px;
+}
+
+.contato li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contato a {
+    color: #9b56b2;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #9b56b2;
+}
+
+/* Estilo do Link Hover */
+.contato a:hover {
+    text-decoration: underline;
+}
